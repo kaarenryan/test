@@ -12,15 +12,13 @@
  leave this text as the default black
  </p>
 
- <body>
+<style>
+div p { text-decoration-color: purple;
+        1. make the text for list items 1 & 2 purple using a descendant selector
+      </br>
+        2. make the text for list items 1 & 2 purple using a descendant selector
+      }
 
- div p {
-     text: purple;
-     1. make the text for list items 1 & 2 purple using a descendant selector
+</style>
 
- </br>
-
-     2. make the text for list items 1 & 2 purple using a descendant selector
-     }
-
-</body>
+</html>      
