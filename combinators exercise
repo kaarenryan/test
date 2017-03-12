@@ -15,13 +15,9 @@ div { color: purple;
       }
 div > p {color: red;
       }
-div + p {color: blue;
+div p + p {color: blue;
       }
-      .important {color: blue;}
-div ~ p {color: orange;}
-      .important1 {color: orange}
-      .important2 {color: pink}
-
+p ~ span {color: orange;}
 
 </style>
 
@@ -31,9 +27,11 @@ div ~ p {color: orange;}
   <div>
     <span><p> 1. make the text for list items 1 & 2 purple using a descendant selector </p></span>
     <span><p> 2. make the text for list items 1 & 2 purple using a descendant selector </p></span>
+  </div>
+  <div>
     <p>make this text red using a child selector</p>
-    <p class="important">make this text blue using and adjacent selector</p>
-    <p class="important1">make this text orange using a general sibling selector; <em class="important2">and this phrase pink by combining 2 types of selectors</p>
+    <p>make this text blue using an adjacent selector</p>
+    <span><p>make this text orange using a general sibling selector; </span> <em style="color: pink"><i>and this phrase pink by combining 2 types of selectors<i></p>
   </div>
 
 
