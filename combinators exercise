@@ -12,7 +12,7 @@
  leave this text as the default black
  </p>
 
- </br>
+ <body>
 
  div p {
      text: purple;
@@ -22,3 +22,5 @@
 
      2. make the text for list items 1 & 2 purple using a descendant selector
      }
+
+</body>
