@@ -6,19 +6,21 @@
 
  <title> CCS Combinators Exercise </title>
 
- </head>
-
  <p>
  leave this text as the default black
  </p>
 
 <style>
-div p { text-decoration-color: purple;
-        1. make the text for list items 1 & 2 purple using a descendant selector
-      </br>
-        2. make the text for list items 1 & 2 purple using a descendant selector
+div { color: purple;
       }
-
 </style>
+ </head>
 
-</html>      
+<body>
+  <div class="text-decoration-color: purple">
+    <p> 1. make the text for list items 1 & 2 purple using a descendant selector </p>
+    <p> 2. make the text for list items 1 & 2 purple using a descendant selector </p>
+  </div>
+</body>
+
+</html>
