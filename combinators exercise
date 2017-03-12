@@ -13,14 +13,20 @@
 <style>
 div { color: purple;
       }
+div > p {color: red
+      }
 </style>
  </head>
 
 <body>
-  <div class="text-decoration-color: purple">
+  <div>
     <p> 1. make the text for list items 1 & 2 purple using a descendant selector </p>
     <p> 2. make the text for list items 1 & 2 purple using a descendant selector </p>
+    <span><p>make this text red using a child selector</p></span>
   </div>
+
+
+
 </body>
 
 </html>
