@@ -1,0 +1,142 @@
+body {
+  background-color: #441E13;
+  color: white;
+}
+
+/* div {
+  outline: 1px solid yellow;
+}*/
+
+.logocontainer {
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 920px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 205px;
+  float: left;
+}
+
+.slogan {
+  width: 380px;
+  float: left;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  margin-top: 18px;
+}
+
+.nav {
+  background-color: rgba(0,0,0,0.25);
+  height: 62px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  max-width: 920px;
+}
+
+.nav ol {
+  padding: 18px 10px;
+}
+
+.nav li {
+  border-right: 1px solid #D4B364;
+  display: block;
+  float: left;
+  font-family: sans-serif;
+  padding: 6px 20px;
+}
+
+.nav li:last-child {
+  border-right: none;
+}
+
+.about {
+  background-color: #87A984;
+  height: 200px;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.about ol {
+  padding: 20px 30px;
+  font-family: sans-serif;
+}
+
+.about li {
+  border-right: 1px solid;
+}
+
+.about p {
+  padding: 0px 10px;
+}
+
+.about img {
+  float: left;
+  height: 150px;
+  width: 150px;
+  padding: 15px 15px;
+}
+
+.homelist {
+  background-color: #96AFAC;
+  margin-left: auto;
+  margin-top: 10px;
+  height: 500px;
+  width: 220px;
+  float: left;
+}
+
+.homelist li {
+  border-bottom-style: 1px solid;
+  border-width: 1px;
+  display: block;
+  float: left;
+  font-family: sans-serif;
+  padding: 6px 20px;
+}
+
+.homelist ol {
+  padding: 10px 5px;
+}
+
+.howweworkcontainer {
+  max-width: 920px;
+  margin-left: auto;
+}
+
+.howwework {
+  background-color: #DBD8C5;
+  margin-left: auto;
+  margin-top: 10px;
+  height: 500px;
+  width: 700px;
+  float: left;
+}
+
+.howwework ol {
+  padding: 5px 30px;
+  font-family: sans-serif;
+}
+
+.howwework h1 {
+  color: #526977;
+}
+
+.howwework p {
+  color: black;
+}
